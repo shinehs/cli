@@ -16,7 +16,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "bin": {
-    "tool": "./app.js"
+    "tool": "./init.js"
   },
   "author": "shine",
   "license": "ISC"
