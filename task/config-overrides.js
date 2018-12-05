@@ -3,8 +3,8 @@ let path = require('path');
 module.exports = function override(config, env) {
   //do stuff with the webpack config...
   // reset
-  // config.output.publicPath = './';
-  config.output.path = path.resolve(path.resolve(__dirname, '') + '/build/yyRap/pc');
+  config.output.publicPath = '../';
+  config.output.path = path.resolve(path.resolve(__dirname, '') + '/output/pc');
   config.output.filename = 'js/bundle.js';
   config.output.chunkFilename = 'js/[name].[chunkhash].chunk.js';
   config.plugins[1].options.filename = 'html/index.html';
