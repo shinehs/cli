@@ -28,7 +28,7 @@
     "codemirror": "5.39.0",
     "graceful": "1.0.1",
     "jquery": "^3.3.1",
-    "koa": "2.5.1",
+    "koa": "2.16.1",
     "koa-router": "7.4.0",
     "koa-session": "5.8.1",
     "koa-static": "5.0.0",
